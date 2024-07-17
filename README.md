@@ -1,7 +1,7 @@
 # budgie-sensibo-monitor - WIP
 
    ### Information
-   My first python and Gtk programming project, this should be written a lot better, I am currently stuck, so anyone willing to help clean up the code and implement a better way for global settings would be greatly appreciate.
+   A very simple budgie applet to display temperture and humidity, also on/off switch
    
    ### Screen Shots
 ![alt text](./Screenshots/SceenShot-Budgie-Sensibo-Monitor.png) ![alt text](./Screenshots/SceenShot-Budgie-Sensibo-Monitor-on.png)
@@ -9,6 +9,8 @@
 
 
    ### Installl
+   Use the provided install.sh script or use the below bash commands
+
   ```bash
    $ cd budgie-sensibo-monitor
    $ mkdir build && cd build
@@ -17,6 +19,8 @@
   ```
 
    ### Uninstall
+   Use the provided uninstall.sh script or use the below bash commands
+
   ```bash
    $ sudo ninja uninstall
   ```

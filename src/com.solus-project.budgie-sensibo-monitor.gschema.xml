@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemalist gettext-domain="budgie-sensibo-monitor">
-  <schema id="com.solus-project.budgie-sensibo-monitor">
-
+<schemalist>
+  <schema id="com.solus-project.budgie-sensibo-monitor" path="/com/solus-project/budgie-sensibo-monitor/" gettext-domain="budgie-sensibo-monitor">
     <key type="s" name="apikey">
-      <default>'YOURAPIKEY'</default>
+      <default>'du9lHnKCFDEVtpUpgiAsCeKQCJmAp2'</default>
       <summary>API Key</summary>
       <description>Sensibo API Key</description>
     </key>
-
     <key type="s" name="deviceid">
-      <default>'YOURDEVICEID'</default>
+      <default>'DAqXdYTv'</default>
       <summary>Device ID</summary>
       <description>Sendibi Device name ID</description>
     </key>
-
-    <key type="b" name="onoff">
-      <default>false</default>
-      <summary>On/Off status</summary>
-      <description>Sensibo Device On/Off status</description>
-    </key>
-
     <key type="i" name="intervals">
       <default>1</default>
       <summary>Update Interval</summary>
       <description>Sensibo update Intervals(minutes)</description>
     </key>
   </schema>
-
 </schemalist>

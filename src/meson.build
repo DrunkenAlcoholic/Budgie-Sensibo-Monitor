@@ -1,6 +1,5 @@
 install_data(
     'budgie-sensibo-monitor.plugin',
-    'budgie-sensibo-monitor.ui',
     install_dir: APPLET_INSTALL_DIR
 )
 
@@ -10,8 +9,13 @@ install_data(
 )
 
 install_data(
-    'budgie-sensibo-monitor-icon.svg',
-    'budgie-sensibo-monitor-icon-on.svg',
+    'com.solus-project.budgie-sensibo-monitor.gschema.xml',
+    install_dir: join_paths(datadir, 'metainfo'),
+)
+
+install_data(
+    'sensibo-monitor-icon.svg',
+    'sensibo-monitor-icon-on.svg',
     install_dir: PIXMAPS_DIR
 )
 
