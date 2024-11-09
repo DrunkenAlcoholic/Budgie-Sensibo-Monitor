@@ -2,12 +2,12 @@
 <schemalist>
   <schema id="com.solus-project.budgie-sensibo-monitor" path="/com/solus-project/budgie-sensibo-monitor/" gettext-domain="budgie-sensibo-monitor">
     <key type="s" name="apikey">
-      <default>'du9lHnKCFDEVtpUpgiAsCeKQCJmAp2'</default>
+      <default>'API Key'</default>
       <summary>API Key</summary>
       <description>Sensibo API Key</description>
     </key>
     <key type="s" name="deviceid">
-      <default>'DAqXdYTv'</default>
+      <default>'Device ID'</default>
       <summary>Device ID</summary>
       <description>Sendibi Device name ID</description>
     </key>
